@@ -15,6 +15,19 @@
     <!-- Font Awesome Kit Link  -->
     <script src="https://kit.fontawesome.com/62445b34d6.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+    <!-- Styles  -->
+    <style>
+        .fonts {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
     <!-- Customized Configurations  -->
     <script>
         tailwind.config = {
@@ -29,7 +42,7 @@
     </script>
 </head>
 
-<body class="">
+<body class="fonts">
     <!-- Header Section  -->
     <header class="px-32 m-auto">
         <!-- Navigation Section Start   -->
@@ -115,7 +128,7 @@
     <main class="px-32 m-auto">
         <!-- Club Section Start  -->
         <section>
-            <div class="text-center">
+            <div class="text-center border-dashed border-y border-y-zinc-500 ">
                 <h1>Professional Hockeys Club</h1>
                 <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </p>
@@ -124,26 +137,39 @@
             <!-- Spiner  -->
             <div class="flex justify-between ">
                 <div class="text-center ">
-                    <p class="border-dashed border-y border-y-zinc-500"><span
-                            class="loading loading-spinner loading-lg text-error text-5xl p-10 ">87%</span></p>
+                    <div class=" text-error pt-12 pb-6">
+                        <div class="radial-progress " style="--value:87;" role="progressbar">
+                            <p class="text-black text-2xl">87%</p>
+                        </div>
+                    </div>
                     <h3>Prayer Facility</h3>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                    <p class="border-dashed border-y border-y-zinc-500"><span
-                            class="loading loading-spinner loading-lg text-accent text-5xl p-10">95%</span></p>
+                    <div class=" text-accent pt-12 pb-6">
+                        <div class="radial-progress " style="--value:87;" role="progressbar">
+                            <p class="text-black text-2xl">87%</p>
+                        </div>
+                    </div>
                     <h3>Experienced Coach</h3>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                    <p class="border-dashed border-y border-y-zinc-500"><span
-                            class="loading loading-spinner loading-lg text-warning text-5xl p-10">95%</span></p>
+                    <div class=" text-warning pt-12 pb-6">
+                        <div class="radial-progress " style="--value:87;" role="progressbar">
+                            <p class="text-black text-2xl">87%</p>
+                        </div>
+                    </div>
                     <h3>Senior Player</h3>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                    <p class="border-dashed border-y border-y-zinc-500"><span
-                            class="loading loading-spinner loading-lg text-info text-5xl p-10">95%</span></p>
+                    <div class=" text-info pt-12 pb-6">
+                        <div class="radial-progress " style="--value:87;" role="progressbar">
+                            <p class="text-black text-2xl">87%</p>
+                        </div>
+                    </div>
+
                     <h3>Training Ground</h3>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
@@ -254,56 +280,123 @@
                         </figure>
                         <div class="w-3/4">
                             <h1>Our Equipment</h1>
-                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in
+                                magna.</p>
                             <div class="collapse collapse-plus bg-base-200">
-                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <input type="radio" name="my-accordion-3" checked="checked" />
                                 <div class="collapse-title text-xl font-medium">
                                     Hockey Training
                                 </div>
-                                <div class="collapse-content"> 
-                                  <p>hello</p>
+                                <div class="collapse-content">
+                                    <p>hello</p>
                                 </div>
-                              </div>
-                              <div class="collapse collapse-plus bg-base-200">
-                                <input type="radio" name="my-accordion-3" /> 
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
                                 <div class="collapse-title text-xl font-medium">
                                     Private Lessons
                                 </div>
-                                <div class="collapse-content"> 
-                                  <p>hello</p>
+                                <div class="collapse-content">
+                                    <p>hello</p>
                                 </div>
-                              </div>
-                              <div class="collapse collapse-plus bg-base-200">
-                                <input type="radio" name="my-accordion-3" /> 
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
                                 <div class="collapse-title text-xl font-medium">
                                     Ski Touring
                                 </div>
-                                <div class="collapse-content"> 
-                                  <p>hello</p>
+                                <div class="collapse-content">
+                                    <p>hello</p>
                                 </div>
-                              <div class="collapse collapse-plus bg-base-200">
-                                <input type="radio" name="my-accordion-3" /> 
-                                <div class="collapse-title text-xl font-medium">
-                                    Booking
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" />
+                                    <div class="collapse-title text-xl font-medium">
+                                        Booking
+                                    </div>
+                                    <div class="collapse-content">
+                                        <p>hello</p>
+                                    </div>
+                                    <div class="collapse collapse-plus bg-base-200">
+                                        <input type="radio" name="my-accordion-3" />
+                                        <div class="collapse-title text-xl font-medium">
+                                            Pricings
+                                        </div>
+                                        <div class="collapse-content">
+                                            <p>hello</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="collapse-content"> 
-                                  <p>hello</p>
-                                </div>
-                              <div class="collapse collapse-plus bg-base-200">
-                                <input type="radio" name="my-accordion-3" /> 
-                                <div class="collapse-title text-xl font-medium">
-                                    Pricings
-                                </div>
-                                <div class="collapse-content"> 
-                                  <p>hello</p>
-                                </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </section>
 
+        <!-- Get In Touch Section  -->
+        <section>
+            <div class="text-center">
+                <h1>Clients Question</h1>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna
+                    in sit nullam proin. </p>
+            </div>
+
+            <div class="flex ">
+                <div class="">
+                    <div>
+                        <img src="Images/icon1.png" alt="Call icon">
+                        <p>Phone Number :</p>
+                        <p>(+62) 123-321-543</p>
+                    </div>
+                    <div>
+                        <img src="Images/icon2.png" alt="Mail icon">
+                        <p>Email :</p>
+                        <p>hockeys@support.com</p>
+                    </div>
+                    <div>
+                        <img src="Images/icon3.png" alt="Location icon">
+                        <p>Location :152/1 Mohakhali Wireless Gate</p>
+                        <p>152/1 Mohakhali Wireless Gate</p>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="grid grid-cols-2">
+                        <div class="flex flex-col "><label for="">Your Name</label>
+                            <input type="text" placeholder="You can't touch this"
+                                class="input input-bordered w-full max-w-xs mt-4" disabled />
+                        </div>
+                        <div class="flex flex-col "><label for="">Your Name</label>
+                            <input type="text" placeholder="You can't touch this"
+                                class="input input-bordered w-full max-w-xs mt-4" disabled />
+                        </div>
+                        <div class="flex flex-col "><label for="">Your Name</label>
+                            <input type="text" placeholder="You can't touch this"
+                                class="input input-bordered w-full max-w-xs mt-4" disabled />
+                        </div>
+                        <div class="flex flex-col "><label for="">Your Name</label>
+                            <input type="text" placeholder="You can't touch this"
+                                class="input input-bordered w-full max-w-xs mt-4" disabled />
+                        </div>
+                    </div>
+
+                    <textarea class="textarea w-full" placeholder="Bio" disabled></textarea>
+                    <button>Send Message</button>
+                </form>
+
+                
+                
+            </div>
+        </section>
+        
+        <!-- Social Media Section  -->
+        
+        <section class="text-center">
+            <h1>Social Media</h1>
+            <div class="flex justify-center gap-5 ">
+                <div><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-github"></i></a></div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer Section  -->
